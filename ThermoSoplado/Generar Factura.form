@@ -1,0 +1,66 @@
+{
+  "components": [
+    {
+      "text": "# FACTURA",
+      "type": "text",
+      "layout": {
+        "row": "Row_1etrx05",
+        "columns": null
+      },
+      "id": "Field_1sgh6s4"
+    },
+    {
+      "label": "Nombre del cliente",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f0h1dh",
+        "columns": null
+      },
+      "id": "Field_0jtk5f8",
+      "key": "cliente",
+      "disabled": true
+    },
+    {
+      "label": "Tipo de maniqui",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1cb0xz9",
+        "columns": null
+      },
+      "id": "Field_0x1wb89",
+      "key": "articulo",
+      "disabled": true
+    },
+    {
+      "label": "Color de maniqui",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1rkfn2a",
+        "columns": null
+      },
+      "id": "Field_0g6h8z5",
+      "key": "color",
+      "disabled": true
+    },
+    {
+      "label": "Valor de compra",
+      "type": "number",
+      "layout": {
+        "row": "Row_0506t8m",
+        "columns": null
+      },
+      "id": "Field_1arcvhn",
+      "key": "valor",
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "formulario",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

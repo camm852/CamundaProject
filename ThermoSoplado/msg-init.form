@@ -1,0 +1,32 @@
+{
+  "components": [
+    {
+      "text": "# THERMO SOPLADO",
+      "type": "text",
+      "layout": {
+        "row": "Row_02tc2ps",
+        "columns": null
+      },
+      "id": "Field_1gdp1ec"
+    },
+    {
+      "text": "Haga clic en **start** para iniciar el proceso",
+      "type": "text",
+      "layout": {
+        "row": "Row_0yh3bho",
+        "columns": null
+      },
+      "id": "Field_0qoevit",
+      "properties": {}
+    }
+  ],
+  "type": "default",
+  "id": "thermo-init",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

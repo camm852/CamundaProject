@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="orden_id" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.11.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="Clasificar" name="Clasificar orden">
+    <decisionTable id="DecisionTable_10gsujr">
+      <input id="Input_1" label="articulo" camunda:inputVariable="articulo">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_18oae31" label="color" camunda:inputVariable="color">
+        <inputExpression id="LiteralExpression_0eytp5i" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="precio" name="precio" typeRef="long" />
+      <rule id="DecisionRule_0qha21v">
+        <inputEntry id="UnaryTests_1ova9n1">
+          <text>"dama"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1wohwrj">
+          <text>"negro"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1avnyj1">
+          <text>15000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1l3pmu4">
+        <inputEntry id="UnaryTests_0ngh5wj">
+          <text>"hombre"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_14w1gw9">
+          <text>"negro"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0gqyvho">
+          <text>16000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1urlcd5">
+        <inputEntry id="UnaryTests_0hywlzq">
+          <text>"niña"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1lv7mwf">
+          <text>"negro"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1272y5z">
+          <text>12000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0npcr3v">
+        <inputEntry id="UnaryTests_1c0pmf7">
+          <text>"niño"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1br95v4">
+          <text>"negro"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1x3g3zm">
+          <text>12000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1pf8762">
+        <inputEntry id="UnaryTests_0f5qs7x">
+          <text>"bebe"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ucrrcy">
+          <text>"negro"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1dnjtkg">
+          <text>10000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1xsqjj4">
+        <inputEntry id="UnaryTests_1qsz8zm">
+          <text>"cadera hombre"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_19kzz8b">
+          <text>"negro"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0rg2fi3">
+          <text>12000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0ku1jk0">
+        <inputEntry id="UnaryTests_1ibd9rd">
+          <text>"dama"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1hs0ez8">
+          <text>"blanco"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_18zs8rj">
+          <text>17500</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0gn5cbh">
+        <inputEntry id="UnaryTests_0422gaa">
+          <text>"hombre"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0ukhtiy">
+          <text>"blanco"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_05u25vf">
+          <text>18500</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_02s65wg">
+        <inputEntry id="UnaryTests_0yeyiui">
+          <text>"niña"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0r4fayi">
+          <text>"blanco"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0f6hpum">
+          <text>13500</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0l9hr9d">
+        <inputEntry id="UnaryTests_1v0agxa">
+          <text>"niño"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_06h74mp">
+          <text>"blanco"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_07ln2rl">
+          <text>13500</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_14jb50u">
+        <inputEntry id="UnaryTests_0mgfdg7">
+          <text>"bebe"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_18qqt0e">
+          <text>"blanco"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_033ut1b">
+          <text>11000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1s957b7">
+        <inputEntry id="UnaryTests_142cevq">
+          <text>"cadera hombre"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0c5rp7v">
+          <text>"blanco"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0gxpr72">
+          <text>13500</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Clasificar">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

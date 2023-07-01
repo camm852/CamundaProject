@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "text": "# REGISTRAR PEDIDO",
+      "type": "text",
+      "layout": {
+        "row": "Row_11kw6af",
+        "columns": null
+      },
+      "id": "Field_1uiq1jh"
+    },
+    {
+      "label": "Nombre del cliente",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0f0h1dh",
+        "columns": null
+      },
+      "id": "Field_0jtk5f8",
+      "key": "cliente"
+    },
+    {
+      "values": [
+        {
+          "label": "dama",
+          "value": "dama"
+        },
+        {
+          "label": "hombre",
+          "value": "hombre"
+        },
+        {
+          "label": "niña",
+          "value": "niña"
+        },
+        {
+          "label": "niño",
+          "value": "niño"
+        },
+        {
+          "label": "bebe",
+          "value": "bebe"
+        },
+        {
+          "label": "cadera hombre",
+          "value": "cadera hombre"
+        }
+      ],
+      "label": "Tipo de maniquies",
+      "type": "select",
+      "layout": {
+        "row": "Row_1aiqry6",
+        "columns": null
+      },
+      "id": "Field_0vylxla",
+      "key": "articulo"
+    },
+    {
+      "values": [
+        {
+          "label": "blanco",
+          "value": "blanco"
+        },
+        {
+          "label": "negro",
+          "value": "negro"
+        }
+      ],
+      "label": "Color de maniquies",
+      "type": "select",
+      "layout": {
+        "row": "Row_0y8pfvi",
+        "columns": null
+      },
+      "id": "Field_063uypv",
+      "key": "color"
+    },
+    {
+      "label": "Cantidad de maniquies",
+      "type": "number",
+      "layout": {
+        "row": "Row_0dot7jc",
+        "columns": null
+      },
+      "id": "Field_0cs7qxr",
+      "key": "cantidad"
+    }
+  ],
+  "type": "default",
+  "id": "Registrar",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

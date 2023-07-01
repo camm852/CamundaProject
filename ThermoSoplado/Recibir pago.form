@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "text": "# PAGO",
+      "type": "text",
+      "layout": {
+        "row": "Row_1sx2sh4",
+        "columns": null
+      },
+      "id": "Field_0viphrz"
+    },
+    {
+      "text": "Cantidad del pago",
+      "type": "text",
+      "layout": {
+        "row": "Row_1g0f54d",
+        "columns": null
+      },
+      "id": "Field_0pnycg1"
+    },
+    {
+      "label": "pago",
+      "type": "number",
+      "layout": {
+        "row": "Row_1g0f54d",
+        "columns": null
+      },
+      "id": "Field_0ofxq4e",
+      "key": "pago"
+    }
+  ],
+  "type": "default",
+  "id": "RevisarPago",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

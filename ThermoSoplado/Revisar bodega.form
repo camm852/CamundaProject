@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "text": "# BODEGA",
+      "type": "text",
+      "layout": {
+        "row": "Row_1kayyja",
+        "columns": null
+      },
+      "id": "Field_0xkzfe1"
+    },
+    {
+      "text": "Ingrese la cantidad de produtos en bodega",
+      "type": "text",
+      "layout": {
+        "row": "Row_1s5o08i",
+        "columns": null
+      },
+      "id": "Field_1x57e83"
+    },
+    {
+      "label": "productos",
+      "type": "number",
+      "layout": {
+        "row": "Row_1s5o08i",
+        "columns": null
+      },
+      "id": "Field_1tpixe6",
+      "key": "bodega"
+    }
+  ],
+  "type": "default",
+  "id": "revisar_bodega",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
